@@ -19,6 +19,24 @@ const About = () => {
                     At <span className="font-semibold text-blue-600">RaceFlow</span>, our mission is to help runners of all levels achieve their personal bests. We aim to create a seamless experience for athletes, offering easy event registration, real-time tracking, and insightful data to help you perform at your best.
                 </p>
             </section>
+
+            <section className="mb-8">
+                <h2 className="text-2xl font-bold text-gray-800 border-l-4 border-blue-600 pl-3">What We Offer</h2>
+                <ul className="mt-4 space-y-3 text-lg text-gray-700">
+                    <li className="flex items-center gap-2">
+                        ✅ <span>Event Registration: Easily sign up for upcoming marathons and running events.</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                        ✅ <span>Race Tracking: Get real-time updates during events, including your pace, position, and more.</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                        ✅ <span>Training Plans: Tailored training schedules to help you prepare for your marathon.</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                        ✅ <span>Community Support: Connect with fellow runners, share tips, and stay motivated.</span>
+                    </li>
+                </ul>
+            </section>
         </div>
     );
 };
