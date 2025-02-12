@@ -37,6 +37,32 @@ const About = () => {
                     </li>
                 </ul>
             </section>
+
+
+            <section className="mb-8">
+    <h2 className="text-2xl font-bold text-gray-800 border-l-4 border-blue-600 pl-3">Meet the Team</h2>
+    <p className="text-lg mt-2 text-gray-700">
+        Our team is made up of passionate runners, tech enthusiasts, and event organizers who are dedicated to making your marathon experience smoother and more enjoyable.
+    </p>
+
+    <div className="grid md:grid-cols-3 grid-cols-1 gap-6 mt-6">
+        {/* Team Member 1 */}
+        <div className="bg-white shadow-md p-6 rounded-lg text-center">
+            <img 
+                src="https://media.istockphoto.com/id/165855785/photo/mature-businessman.jpg?s=612x612&w=0&k=20&c=lgNccVYmF6rRan_yH6gA0eJxQHdUwKw9kN9po06dCDI=" 
+                alt="John Doe" 
+                className="w-24 h-24 mx-auto rounded-full mb-3 border-4 border-blue-600"
+            />
+            <h3 className="text-xl font-semibold text-gray-800">David Miller</h3>
+            <p className="text-gray-600 text-sm">Co-Founder & Marathon Expert</p>
+            <p className="text-gray-700 mt-2 text-sm">
+                A seasoned marathon runner with 10+ years of experience, guiding athletes to achieve their goals.
+            </p>
+        </div>
+
+    </div>
+</section>  
+
         </div>
     );
 };
