@@ -60,8 +60,35 @@ const About = () => {
             </p>
         </div>
 
+        {/* Team Member 2 */}
+        <div className="bg-white shadow-md p-6 rounded-lg text-center">
+            <img 
+                src="https://cms.tnj.com/wp-content/uploads/2021/09/News_Business_Thasunda-Duckett_REC10A0117.jpg" 
+                alt="Jane Smith" 
+                className="w-24 h-24 mx-auto rounded-full mb-3 border-4 border-blue-600"
+            />
+            <h3 className="text-xl font-semibold text-gray-800">Jane Smith</h3>
+            <p className="text-gray-600 text-sm">Lead Developer & Tech Innovator</p>
+            <p className="text-gray-700 mt-2 text-sm">
+                A tech enthusiast passionate about building seamless race-tracking experiences.
+            </p>
+        </div>
+
+        {/* Team Member 3 */}
+        <div className="bg-white shadow-md p-6 rounded-lg text-center">
+            <img 
+                src="https://media.istockphoto.com/id/888273780/photo/im-living-proof-of-business-success.jpg?s=612x612&w=0&k=20&c=lyIyr_xJiDrBvxYcgGrxR73kvfib86u5r2Rk2-5z6fo=" 
+                alt="Alex Johnson" 
+                className="w-24 h-24 mx-auto rounded-full mb-3 border-4 border-blue-600"
+            />
+            <h3 className="text-xl font-semibold text-gray-800">Michael Carter</h3>
+            <p className="text-gray-600 text-sm">Event Coordinator & Community Manager</p>
+            <p className="text-gray-700 mt-2 text-sm">
+                Dedicated to organizing top-tier running events and fostering a vibrant runner’s community.
+            </p>
+        </div>
     </div>
-</section>  
+</section> 
 
         </div>
     );
